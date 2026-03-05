@@ -4,6 +4,7 @@ try -> tentar executar o código
 except -> ocorreu algum erro ao executar
 '''
 numero_str = input('Vou dobrar o número que você digitar: ')
+
 try:
     numero_float = float(numero_str)
     print('FLOAT:', f'{numero_float:.0f}')
